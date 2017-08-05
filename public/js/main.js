@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	// Header Scroll
-	$(window).on('scroll', function() {
+	/*$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 50) {
@@ -8,11 +8,15 @@ $(document).ready(function() {
 		} else {
 			$('#header').removeClass('fixed');
 		}
-	});
+	});*/
 
 	// Fancybox
 	$('.work-box').fancybox();
-
+	
+	
+	//fancy box for had accedent
+	$('.fancybox').fancybox();
+	
 	// Flexslider
 	$('.flexslider').flexslider({
 		animation: "fade",
