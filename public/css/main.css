@@ -386,7 +386,7 @@ ul li {
 	height: 100%;
 }
 .work .overlay {
-	background: rgba(232, 69, 69, 0.9);
+	background: #5856A9;
 	height: 100%;
 	left: 0;
 	opacity: 0;
@@ -590,8 +590,8 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
-@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
-body {
+
+#services {
   background: #112048;
   min-height: 100vh;
   width: auto;
@@ -706,4 +706,10 @@ h1, h2 h3, h4, h5, h6, input {
 }
 #teams{
 	background: white;
+}
+
+#teams ul li {
+    list-style: circle;
+    color: gray;
+    text-align: start;
 }
