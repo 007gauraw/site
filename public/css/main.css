@@ -11,7 +11,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Source%20Sans%20Pro:300,400,500,600,700);
 p {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 22.4px;
 	color: #6c7279;
 }
@@ -87,6 +87,7 @@ ul li {
 .section {
 	padding: 100px 0;
 }
+
 .no-padding {
 	padding: 0;
 }
@@ -301,7 +302,7 @@ ul li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 573px;
+	min-height: 636px;
 }
 .banner-btn {
 	opacity: 0.5;
@@ -367,7 +368,7 @@ ul li {
 	margin-top: 30px;
 }
 .services .icon {
-	color: #e84545;
+	color: #4568e8;
 	font-size: 36px;
 	padding-left: 15px;
 }
@@ -530,6 +531,10 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Quote
 -------------------------------------------------------------------------------*/
+/* .quote {
+	padding: 0px; override current padding for quote section 
+}
+ */
 .quote h3 {
 	margin-top: 0;
 }
@@ -590,3 +595,57 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+/* Floating Button */
+
+/* .float-container{
+	bottom: 0;
+ 	position: fixed;
+	margin: 1em;
+	right: 0px;
+	z-index: 10;
+}
+
+.float-container .buttons {
+  box-shadow: 0px 5px 11px -2px rgba(0, 0, 0, 0.18), 
+              0px 4px 12px -7px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: block;
+  width: 56px;
+  height: 56px;
+  margin: 20px auto 0;
+  position: relative;
+  -webkit-transition: all .1s ease-out;
+          transition: all .1s ease-out;  
+}
+
+.float-container .buttons:nth-last-child(1) {
+  -webkit-transition-delay: 25ms;
+          transition-delay: 25ms;
+  background-image: url('../images/contactus.png');
+  background-size: contain;
+}
+
+[tooltip]:before {
+  bottom: 25%;
+  font-family: arial;
+  font-weight: 600;
+  border-radius: 2px;
+  background: #585858;
+  color: #fff;
+  content: attr(tooltip);
+  font-size: 12px;
+  visibility: hidden;
+  opacity: 0;
+  padding: 5px 7px;
+  margin-right: 12px;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+}
+
+[tooltip]:hover:before,
+[tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+ */
