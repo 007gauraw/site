@@ -119,7 +119,7 @@ ul li {
 	float: left;
 }
 #header.fixed {
-	background-color: rgba(0, 0, 0, 1);
+	background-color: #112048;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -301,7 +301,7 @@ ul li {
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 	background-size: cover;
-	min-height: 750px;
+	min-height: 573px;
 }
 .banner-btn {
 	opacity: 0.5;
@@ -340,17 +340,19 @@ ul li {
 	padding: 100px 15% 0;
 }
 .intro h1 {
-	color: #000;
-	font: 27px "Source Sans Pro";
+    color: #000;
+    font: 40px "Source Sans Pro";
 }
 .intro p {
 	color: #6c7279;
 	display: block;
-	font-size: 13px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
 	margin-top: 30px;
 }
+
+
 /* ------------------------------------------------------------------------------
 	 Services
 -------------------------------------------------------------------------------*/
@@ -494,11 +496,14 @@ ul li {
 	border-color: #e84545;
 	color: #fff;
 }
+
+
+
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	background-color: #e84545;
+	background-color: #5856a9;
 	position: relative;
 	text-align: center;
 }
@@ -543,7 +548,7 @@ ul li {
 	text-align: left;
 }
 .footer-top {
-	background-color: #181818;
+	background-color: #112048;
 	padding-top: 50px;
 }
 .footer-bottom {
